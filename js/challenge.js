@@ -55,7 +55,6 @@ const counter = document.getElementById('counter')
 subtractButton.addEventListener('click', decreaseNumber)
 
 function decreaseNumber() {
-    let counter = document.getElementById('counter');
     number--
     counter.innerHTML = number;
 }
@@ -63,7 +62,6 @@ function decreaseNumber() {
 plusButton.addEventListener('click', increaseNumber);
 
 function increaseNumber() {
-    let counter = document.getElementById('counter');
     number++
     counter.innerHTML = number;
 }
